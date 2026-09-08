@@ -182,3 +182,17 @@
     border-right-color: var(--border);
   }
 }
+
+.pokecard {
+  border: 2px solid gold;
+  max-width: 20rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: black;
+}
+
+.pokelist {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

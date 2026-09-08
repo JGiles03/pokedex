@@ -2,7 +2,7 @@ import Pokecard from "../Pokecard"
 
 export default function Pokelist({cards}){
     return(
-        <div className="Pokelist">
+        <div className="pokelist">
             {cards.map((card) =>(<Pokecard 
                 card={card} 
             />))}
